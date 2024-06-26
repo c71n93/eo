@@ -25,6 +25,11 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
+    paths-ignore: [ 'paper/**', 'sandbox/**' ]
+    types: [ opened, synchronize, reopened ]
 concurrency:
   group: sonar-${{ github.ref }}
   cancel-in-progress: true
