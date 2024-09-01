@@ -1,24 +1,29 @@
 ---
 - added: 8
   cycles: 5
-  error: 'GET https://api.github.com/repos/objectionary/eo/actions/jobs/29291182744:
-    404 - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run'
+  error:
+  - 'GET https://api.github.com/repos/objectionary/eo/actions/jobs/29291182744: 404
+    - Not Found // See: https://docs.github.com/rest/actions/workflow-jobs#get-a-job-for-a-workflow-run'
+  - 'GET https://api.github.com/search/issues?per_page=100&q=repo%3Aobjectionary%2Feo-vscode+type%3Aissue+created%3A2024-08-04..2024-08-14:
+    403 - You have exceeded a secondary rate limit. Please wait a few minutes before
+    you try again. If you reach out to GitHub Support for help, please include the
+    request ID 3100:6E5E1:30A7DB3:5D3105B:66D3CF14. // See: https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits'
   removed: 8
-  seconds: 4888.622728806
+  seconds: 4079.319376022
   version: 0.26.0
   what: judges-summary
-  when: 2024-08-31 23:36:10.182203493 Z
+  when: 2024-09-01 02:25:32.150224815 Z
 - _id: 1
-  _time: 2024-08-31 22:14:42.485602329 Z
+  _time: 2024-09-01 01:17:33.149752562 Z
   _version: 0.4.0/0.26.0/
   total_forks: 242
   total_releases: 440
   total_repositories: 53
   total_stars: 1390
   what: dimensions-of-terrain
-  when: 2024-08-31 22:14:42.485843751 Z
+  when: 2024-09-01 01:17:33.149992642 Z
 - _id: 3
-  _time: 2024-08-31 22:15:02.434325964 Z
+  _time: 2024-09-01 01:18:13.697040205 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -42,7 +47,7 @@
   where: github
   who: 8086956
 - _id: 4
-  _time: 2024-08-31 22:15:10.195361077 Z
+  _time: 2024-09-01 01:18:23.822883832 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi#109 has been opened by @renovate[bot].
@@ -56,7 +61,7 @@
   where: github
   who: 29139614
 - _id: 5
-  _time: 2024-08-31 22:15:10.291472359 Z
+  _time: 2024-09-01 01:18:24.110675787 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   comments: 2
@@ -80,7 +85,7 @@
   where: github
   who: 8086956
 - _id: 6
-  _time: 2024-08-31 22:15:13.194499848 Z
+  _time: 2024-09-01 01:18:29.802752091 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   details: The pull request objectionary/aoi#108 has been opened by @renovate[bot].
@@ -94,7 +99,7 @@
   where: github
   who: 29139614
 - _id: 7
-  _time: 2024-08-31 22:15:13.228153098 Z
+  _time: 2024-09-01 01:18:29.818018700 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -118,7 +123,7 @@
   where: github
   who: 8086956
 - _id: 8
-  _time: 2024-08-31 22:15:15.765392055 Z
+  _time: 2024-09-01 01:18:35.794623970 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi#107 has been opened by @renovate[bot].
@@ -132,7 +137,7 @@
   where: github
   who: 29139614
 - _id: 9
-  _time: 2024-08-31 22:15:15.784758382 Z
+  _time: 2024-09-01 01:18:35.836752698 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.codehaus.mojo-exec-maven-plugin-3.x
   comments: 2
@@ -156,7 +161,7 @@
   where: github
   who: 8086956
 - _id: 10
-  _time: 2024-08-31 22:15:18.259844460 Z
+  _time: 2024-09-01 01:18:41.553801348 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.codehaus.mojo-exec-maven-plugin-3.x
   details: The pull request objectionary/aoi#106 has been opened by @renovate[bot].
@@ -170,7 +175,7 @@
   where: github
   who: 29139614
 - _id: 11
-  _time: 2024-08-31 22:15:18.270793915 Z
+  _time: 2024-09-01 01:18:41.565288424 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -194,7 +199,7 @@
   where: github
   who: 8086956
 - _id: 12
-  _time: 2024-08-31 22:15:21.059729028 Z
+  _time: 2024-09-01 01:18:47.166444602 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi#105 has been opened by @renovate[bot].
@@ -208,7 +213,7 @@
   where: github
   who: 29139614
 - _id: 13
-  _time: 2024-08-31 22:15:21.071787596 Z
+  _time: 2024-09-01 01:18:47.177934173 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -232,7 +237,7 @@
   where: github
   who: 8086956
 - _id: 14
-  _time: 2024-08-31 22:15:23.947211551 Z
+  _time: 2024-09-01 01:18:52.792615206 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi#104 has been opened by @renovate[bot].
@@ -246,7 +251,7 @@
   where: github
   who: 29139614
 - _id: 15
-  _time: 2024-08-31 22:15:23.960253036 Z
+  _time: 2024-09-01 01:18:52.805104459 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.codehaus.mojo-exec-maven-plugin-3.x
   comments: 2
@@ -270,7 +275,7 @@
   where: github
   who: 8086956
 - _id: 16
-  _time: 2024-08-31 22:15:26.735481649 Z
+  _time: 2024-09-01 01:18:58.446802796 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.codehaus.mojo-exec-maven-plugin-3.x
   details: The pull request objectionary/aoi#103 has been opened by @renovate[bot].
@@ -284,7 +289,7 @@
   where: github
   who: 29139614
 - _id: 17
-  _time: 2024-08-31 22:15:26.742832126 Z
+  _time: 2024-09-01 01:18:58.453547755 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -308,7 +313,7 @@
   where: github
   who: 8086956
 - _id: 18
-  _time: 2024-08-31 22:15:29.264252801 Z
+  _time: 2024-09-01 01:19:03.932595775 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi#102 has been opened by @renovate[bot].
@@ -322,7 +327,7 @@
   where: github
   who: 29139614
 - _id: 19
-  _time: 2024-08-31 22:15:29.277806441 Z
+  _time: 2024-09-01 01:19:03.948138932 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   comments: 2
@@ -346,7 +351,7 @@
   where: github
   who: 8086956
 - _id: 20
-  _time: 2024-08-31 22:15:31.847692060 Z
+  _time: 2024-09-01 01:19:09.563746413 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   details: The pull request objectionary/aoi#101 has been opened by @renovate[bot].
@@ -360,7 +365,7 @@
   where: github
   who: 29139614
 - _id: 21
-  _time: 2024-08-31 22:15:31.873930397 Z
+  _time: 2024-09-01 01:19:09.599084143 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -384,7 +389,7 @@
   where: github
   who: 8086956
 - _id: 22
-  _time: 2024-08-31 22:15:34.587161195 Z
+  _time: 2024-09-01 01:19:15.762084037 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi#100 has been opened by @renovate[bot].
@@ -398,7 +403,7 @@
   where: github
   who: 29139614
 - _id: 23
-  _time: 2024-08-31 22:15:34.603749557 Z
+  _time: 2024-09-01 01:19:15.784815863 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -422,7 +427,7 @@
   where: github
   who: 8086956
 - _id: 24
-  _time: 2024-08-31 22:15:37.362808554 Z
+  _time: 2024-09-01 01:19:21.396001852 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi#99 has been opened by @renovate[bot].
@@ -436,7 +441,7 @@
   where: github
   who: 29139614
 - _id: 25
-  _time: 2024-08-31 22:15:37.372345809 Z
+  _time: 2024-09-01 01:19:21.402910330 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   details: The pull request objectionary/aoi#98 has been opened by @renovate[bot].
@@ -450,7 +455,7 @@
   where: github
   who: 29139614
 - _id: 27
-  _time: 2024-08-31 22:15:38.099770489 Z
+  _time: 2024-09-01 01:19:22.975059949 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   comments: 2
@@ -474,7 +479,7 @@
   where: github
   who: 8086956
 - _id: 28
-  _time: 2024-08-31 22:15:39.164398994 Z
+  _time: 2024-09-01 01:19:25.384407896 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -498,7 +503,7 @@
   where: github
   who: 8086956
 - _id: 29
-  _time: 2024-08-31 22:15:40.299096422 Z
+  _time: 2024-09-01 01:19:28.018261900 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi2#71 has been opened by @renovate[bot].
@@ -512,7 +517,7 @@
   where: github
   who: 29139614
 - _id: 30
-  _time: 2024-08-31 22:15:40.306926662 Z
+  _time: 2024-09-01 01:19:28.278646325 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   details: The pull request objectionary/aoi2#70 has been opened by @renovate[bot].
@@ -526,7 +531,7 @@
   where: github
   who: 29139614
 - _id: 31
-  _time: 2024-08-31 22:15:40.349742300 Z
+  _time: 2024-09-01 01:19:28.294644454 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   comments: 2
@@ -550,7 +555,7 @@
   where: github
   who: 8086956
 - _id: 32
-  _time: 2024-08-31 22:15:41.327057678 Z
+  _time: 2024-09-01 01:19:30.607051037 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   details: The pull request objectionary/aoi2#69 has been opened by @renovate[bot].
@@ -564,7 +569,7 @@
   where: github
   who: 29139614
 - _id: 33
-  _time: 2024-08-31 22:15:41.342890048 Z
+  _time: 2024-09-01 01:19:30.623679618 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   comments: 2
@@ -588,7 +593,7 @@
   where: github
   who: 8086956
 - _id: 34
-  _time: 2024-08-31 22:15:42.429933770 Z
+  _time: 2024-09-01 01:19:33.061367722 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -612,7 +617,7 @@
   where: github
   who: 8086956
 - _id: 35
-  _time: 2024-08-31 22:15:43.618414969 Z
+  _time: 2024-09-01 01:19:35.486932082 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi2#68 has been opened by @renovate[bot].
@@ -626,7 +631,7 @@
   where: github
   who: 29139614
 - _id: 36
-  _time: 2024-08-31 22:15:43.627084522 Z
+  _time: 2024-09-01 01:19:35.495996488 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   details: The pull request objectionary/aoi2#67 has been opened by @renovate[bot].
@@ -640,7 +645,7 @@
   where: github
   who: 29139614
 - _id: 37
-  _time: 2024-08-31 22:15:43.668443308 Z
+  _time: 2024-09-01 01:19:35.523257613 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -664,7 +669,7 @@
   where: github
   who: 8086956
 - _id: 38
-  _time: 2024-08-31 22:15:44.642284623 Z
+  _time: 2024-09-01 01:19:37.900258715 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi2#66 has been opened by @renovate[bot].
@@ -678,7 +683,7 @@
   where: github
   who: 29139614
 - _id: 39
-  _time: 2024-08-31 22:15:44.658225876 Z
+  _time: 2024-09-01 01:19:37.916270129 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -702,7 +707,7 @@
   where: github
   who: 8086956
 - _id: 40
-  _time: 2024-08-31 22:15:45.727028439 Z
+  _time: 2024-09-01 01:19:40.280084214 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi2#65 has been opened by @renovate[bot].
@@ -716,7 +721,7 @@
   where: github
   who: 29139614
 - _id: 41
-  _time: 2024-08-31 22:15:45.746867455 Z
+  _time: 2024-09-01 01:19:40.300258357 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -740,7 +745,7 @@
   where: github
   who: 8086956
 - _id: 42
-  _time: 2024-08-31 22:15:46.807488145 Z
+  _time: 2024-09-01 01:19:42.721911675 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   details: The pull request objectionary/aoi2#64 has been opened by @renovate[bot].
@@ -754,7 +759,7 @@
   where: github
   who: 29139614
 - _id: 43
-  _time: 2024-08-31 22:15:46.828810565 Z
+  _time: 2024-09-01 01:19:42.740392394 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   comments: 2
@@ -778,7 +783,7 @@
   where: github
   who: 8086956
 - _id: 44
-  _time: 2024-08-31 22:15:47.926745450 Z
+  _time: 2024-09-01 01:19:45.076092453 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/kotlin-monorepo
   details: The pull request objectionary/aoi2#63 has been opened by @renovate[bot].
@@ -792,7 +797,7 @@
   where: github
   who: 29139614
 - _id: 45
-  _time: 2024-08-31 22:15:47.953474023 Z
+  _time: 2024-09-01 01:19:45.107913650 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/slf4j-monorepo
   comments: 2
@@ -816,7 +821,7 @@
   where: github
   who: 8086956
 - _id: 46
-  _time: 2024-08-31 22:15:49.055501489 Z
+  _time: 2024-09-01 01:19:47.481502681 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   comments: 2
@@ -840,7 +845,7 @@
   where: github
   who: 8086956
 - _id: 47
-  _time: 2024-08-31 22:15:50.228182402 Z
+  _time: 2024-09-01 01:19:49.800872227 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -864,7 +869,7 @@
   where: github
   who: 8086956
 - _id: 48
-  _time: 2024-08-31 22:15:51.298115193 Z
+  _time: 2024-09-01 01:19:52.151460516 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi2#62 has been opened by @renovate[bot].
@@ -878,7 +883,7 @@
   where: github
   who: 29139614
 - _id: 49
-  _time: 2024-08-31 22:15:51.310810845 Z
+  _time: 2024-09-01 01:19:52.162664073 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   details: The pull request objectionary/aoi2#61 has been opened by @renovate[bot].
@@ -892,7 +897,7 @@
   where: github
   who: 29139614
 - _id: 50
-  _time: 2024-08-31 22:15:51.341990151 Z
+  _time: 2024-09-01 01:19:52.191282664 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   comments: 2
@@ -916,7 +921,7 @@
   where: github
   who: 8086956
 - _id: 51
-  _time: 2024-08-31 22:15:52.376537090 Z
+  _time: 2024-09-01 01:19:54.578919354 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   comments: 2
@@ -940,7 +945,7 @@
   where: github
   who: 8086956
 - _id: 52
-  _time: 2024-08-31 22:15:53.468762063 Z
+  _time: 2024-09-01 01:19:56.908733575 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-surefire-plugin-3.x
   details: The pull request objectionary/aoi2#60 has been opened by @renovate[bot].
@@ -954,7 +959,7 @@
   where: github
   who: 29139614
 - _id: 53
-  _time: 2024-08-31 22:15:53.482168663 Z
+  _time: 2024-09-01 01:19:56.920277071 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.apache.maven.plugins-maven-failsafe-plugin-3.x
   details: The pull request objectionary/aoi2#59 has been opened by @renovate[bot].
@@ -968,7 +973,7 @@
   where: github
   who: 29139614
 - _id: 55
-  _time: 2024-08-31 22:15:53.997008796 Z
+  _time: 2024-09-01 01:19:57.948707976 Z
   _version: 0.4.0/0.26.0/
   branch: make
   details: The pull request objectionary/benchmark#47 has been opened by @github-actions[bot].
@@ -982,7 +987,7 @@
   where: github
   who: 41898282
 - _id: 56
-  _time: 2024-08-31 22:15:54.141939096 Z
+  _time: 2024-09-01 01:19:58.209694735 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/jamesives-github-pages-deploy-action-4.x
   comments: 2
@@ -1006,7 +1011,7 @@
   where: github
   who: 8086956
 - _id: 57
-  _time: 2024-08-31 22:15:56.530217437 Z
+  _time: 2024-09-01 01:20:03.159374585 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/jamesives-github-pages-deploy-action-4.x
   details: The pull request objectionary/benchmark#46 has been opened by @renovate[bot].
@@ -1020,7 +1025,7 @@
   where: github
   who: 29139614
 - _id: 58
-  _time: 2024-08-31 22:15:56.838444860 Z
+  _time: 2024-09-01 01:20:03.814386290 Z
   _version: 0.4.0/0.26.0/
   branch: make
   comments: 0
@@ -1044,7 +1049,7 @@
   where: github
   who: 526301
 - _id: 59
-  _time: 2024-08-31 22:15:57.281488033 Z
+  _time: 2024-09-01 01:20:06.006700314 Z
   _version: 0.4.0/0.26.0/
   branch: factorialize
   comments: 2
@@ -1068,7 +1073,7 @@
   where: github
   who: 8086956
 - _id: 60
-  _time: 2024-08-31 22:15:59.653940471 Z
+  _time: 2024-09-01 01:20:11.112986347 Z
   _version: 0.4.0/0.26.0/
   branch: factorial
   comments: 2
@@ -1092,7 +1097,7 @@
   where: github
   who: 526301
 - _id: 61
-  _time: 2024-08-31 22:16:00.767784165 Z
+  _time: 2024-09-01 01:20:13.542312994 Z
   _version: 0.4.0/0.26.0/
   branch: factorialize
   details: The pull request objectionary/benchmark#45 has been opened by @maxonfjvipon.
@@ -1106,7 +1111,7 @@
   where: github
   who: 37025995
 - _id: 66
-  _time: 2024-08-31 22:16:02.651676006 Z
+  _time: 2024-09-01 01:20:17.538571601 Z
   _version: 0.4.0/0.26.0/
   branch: renovate/org.yaml-snakeyaml-2.x
   details: The pull request objectionary/demu#38 has been opened by @renovate[bot].
@@ -1120,7 +1125,7 @@
   where: github
   who: 29139614
 - _id: 69
-  _time: 2024-08-31 22:16:04.446490816 Z
+  _time: 2024-09-01 01:20:21.052483036 Z
   _version: 0.4.0/0.26.0/
   details: The issue objectionary/eo#3354 has been opened by @volodya-lombrozo.
   event_id: 41509334901
@@ -1133,7 +1138,7 @@
   where: github
   who: 51804353
 - _id: 70
-  _time: 2024-08-31 22:16:04.694615690 Z
+  _time: 2024-09-01 01:20:21.568003068 Z
   _version: 0.4.0/0.26.0/
   details: The issue objectionary/eo#3353 has been opened by @yegor256.
   event_id: 41485187665
@@ -1146,7 +1151,7 @@
   where: github
   who: 526301
 - _id: 80
-  _time: 2024-08-31 22:16:15.324734836 Z
+  _time: 2024-09-01 01:20:43.188879425 Z
   _version: 0.4.0/0.26.0/
   details: The '#enhancement' label was attached by @yegor256 to the issue objectionary/eo#3353.
   is_human: 1
@@ -1158,460 +1163,456 @@
   where: github
   who: 526301
 - _id: 126
-  _time: 2024-08-31 22:16:15.986033477 Z
+  _time: 2024-09-01 01:20:44.050842010 Z
   _version: 0.4.0/0.26.0/
-  average_backlog_size: 0.35198438516590763
-  average_build_duration: 183.2009900990099
-  average_build_success_rate: 0.8648514851485148
+  average_build_duration: 185.20245245245246
+  average_build_success_rate: 0.8666166166166166
   average_issue_lifetime: 4178737.7884615385
-  average_pull_files_size: 6.1640625
-  average_pull_hoc_size: 200.859375
-  average_pull_lifetime: 486972.0625
-  average_pull_rejection_rate: 0.1111111111111111
+  average_pull_lifetime: 490334.3986013986
   average_release_interval: 187579.72727272726
-  since: 2024-08-03 22:16:15.986199277 Z
+  since: 2024-08-04 01:20:44.050994356 Z
   what: quality-of-service
-  when: 2024-08-31 22:16:15.986138684 Z
+  when: 2024-09-01 01:20:44.050931778 Z
 - _id: 127
-  _time: 2024-08-31 23:32:59.509879640 Z
+  _time: 2024-09-01 02:19:00.728890965 Z
   _version: 0.4.0/0.26.0/
-  since: 2024-08-03 23:32:59.510076287 Z
+  since: 2024-08-04 02:19:00.729092122 Z
   total_commits_pushed: 459
   total_hoc_committed: 51851
-  total_issues_created: 300
+  total_issues_created: 299
   total_pulls_submitted: 221
   total_releases_published: 12
   what: quantity-of-deliverables
-  when: 2024-08-31 23:32:59.510008741 Z
+  when: 2024-09-01 02:19:00.729019485 Z
 - _id: 317
-  _time: 2024-08-31 23:35:58.464528783 Z
+  _time: 2024-09-01 02:25:13.405763596 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 490221501
   what: events-were-scanned
   where: github
 - _id: 318
-  _time: 2024-08-31 23:35:59.082034041 Z
+  _time: 2024-09-01 02:25:14.702236544 Z
   _version: 0.4.0/0.26.0/
   latest: 41383084059
   repository: 552394123
   what: events-were-scanned
   where: github
 - _id: 319
-  _time: 2024-08-31 23:35:59.604870208 Z
+  _time: 2024-09-01 02:25:15.925056535 Z
   _version: 0.4.0/0.26.0/
   latest: 41385654008
   repository: 581460427
   what: events-were-scanned
   where: github
 - _id: 320
-  _time: 2024-08-31 23:35:59.908961951 Z
+  _time: 2024-09-01 02:25:16.581206379 Z
   _version: 0.4.0/0.26.0/
   latest: 39908080196
   repository: 733919301
   what: events-were-scanned
   where: github
 - _id: 321
-  _time: 2024-08-31 23:36:00.155201555 Z
+  _time: 2024-09-01 02:25:17.295574283 Z
   _version: 0.4.0/0.26.0/
   latest: 41061484928
   repository: 518891717
   what: events-were-scanned
   where: github
 - _id: 322
-  _time: 2024-08-31 23:36:00.382566904 Z
+  _time: 2024-09-01 02:25:17.856817346 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 559427983
   what: events-were-scanned
   where: github
 - _id: 323
-  _time: 2024-08-31 23:36:00.642085874 Z
+  _time: 2024-09-01 02:25:18.505114918 Z
   _version: 0.4.0/0.26.0/
   latest: 41515028591
   repository: 483303722
   what: events-were-scanned
   where: github
 - _id: 324
-  _time: 2024-08-31 23:36:00.950095508 Z
+  _time: 2024-09-01 02:25:19.136760117 Z
   _version: 0.4.0/0.26.0/
   latest: 41515463575
   repository: 575859928
   what: events-were-scanned
   where: github
 - _id: 325
-  _time: 2024-08-31 23:36:01.248526328 Z
+  _time: 2024-09-01 02:25:19.718418946 Z
   _version: 0.4.0/0.26.0/
   latest: 41063967965
   repository: 562850967
   what: events-were-scanned
   where: github
 - _id: 326
-  _time: 2024-08-31 23:36:09.024639714 Z
+  _time: 2024-09-01 02:25:30.714242633 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 490221501
   what: labels-were-scanned
   where: github
 - _id: 327
-  _time: 2024-08-31 23:36:09.035601027 Z
+  _time: 2024-09-01 02:25:30.726045363 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 552394123
   what: labels-were-scanned
   where: github
 - _id: 328
-  _time: 2024-08-31 23:36:09.046485797 Z
+  _time: 2024-09-01 02:25:30.736987611 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 581460427
   what: labels-were-scanned
   where: github
 - _id: 329
-  _time: 2024-08-31 23:36:09.057565763 Z
+  _time: 2024-09-01 02:25:30.747494152 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 733919301
   what: labels-were-scanned
   where: github
 - _id: 330
-  _time: 2024-08-31 23:36:09.068588601 Z
+  _time: 2024-09-01 02:25:30.758819968 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 518891717
   what: labels-were-scanned
   where: github
 - _id: 331
-  _time: 2024-08-31 23:36:09.079211993 Z
+  _time: 2024-09-01 02:25:30.769874807 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 559427983
   what: labels-were-scanned
   where: github
 - _id: 332
-  _time: 2024-08-31 23:36:09.090361207 Z
+  _time: 2024-09-01 02:25:30.780851950 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 483303722
   what: labels-were-scanned
   where: github
 - _id: 333
-  _time: 2024-08-31 23:36:09.101173883 Z
+  _time: 2024-09-01 02:25:30.791594914 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 575859928
   what: labels-were-scanned
   where: github
 - _id: 334
-  _time: 2024-08-31 23:36:09.111676690 Z
+  _time: 2024-09-01 02:25:30.802776320 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 562850967
   what: labels-were-scanned
   where: github
 - _id: 336
-  _time: 2024-08-31 23:36:09.364598509 Z
+  _time: 2024-09-01 02:25:31.203090117 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 565789755
   what: labels-were-scanned
   where: github
 - _id: 337
-  _time: 2024-08-31 23:36:09.375424536 Z
+  _time: 2024-09-01 02:25:31.215420846 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 403396472
   what: labels-were-scanned
   where: github
 - _id: 338
-  _time: 2024-08-31 23:36:09.385984255 Z
+  _time: 2024-09-01 02:25:31.228044033 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 396732517
   what: labels-were-scanned
   where: github
 - _id: 339
-  _time: 2024-08-31 23:36:09.434727912 Z
+  _time: 2024-09-01 02:25:31.241888791 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 570457023
   what: labels-were-scanned
   where: github
 - _id: 340
-  _time: 2024-08-31 23:36:09.451737241 Z
+  _time: 2024-09-01 02:25:31.253188729 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 492899189
   what: labels-were-scanned
   where: github
 - _id: 341
-  _time: 2024-08-31 23:36:09.467253450 Z
+  _time: 2024-09-01 02:25:31.265850028 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 362152931
   what: labels-were-scanned
   where: github
 - _id: 342
-  _time: 2024-08-31 23:36:09.479847209 Z
+  _time: 2024-09-01 02:25:31.276856747 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 482612876
   what: labels-were-scanned
   where: github
 - _id: 343
-  _time: 2024-08-31 23:36:09.492297941 Z
+  _time: 2024-09-01 02:25:31.287446914 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 493398326
   what: labels-were-scanned
   where: github
 - _id: 344
-  _time: 2024-08-31 23:36:09.504929791 Z
+  _time: 2024-09-01 02:25:31.298478750 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 504739774
   what: labels-were-scanned
   where: github
 - _id: 345
-  _time: 2024-08-31 23:36:09.518146484 Z
+  _time: 2024-09-01 02:25:31.309360173 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 510102039
   what: labels-were-scanned
   where: github
 - _id: 346
-  _time: 2024-08-31 23:36:09.530878241 Z
+  _time: 2024-09-01 02:25:31.320126962 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 510082372
   what: labels-were-scanned
   where: github
 - _id: 347
-  _time: 2024-08-31 23:36:09.543104212 Z
+  _time: 2024-09-01 02:25:31.331328536 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 519246071
   what: labels-were-scanned
   where: github
 - _id: 348
-  _time: 2024-08-31 23:36:09.555740320 Z
+  _time: 2024-09-01 02:25:31.341919886 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 551486781
   what: labels-were-scanned
   where: github
 - _id: 349
-  _time: 2024-08-31 23:36:09.567707870 Z
+  _time: 2024-09-01 02:25:31.379179987 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 568705267
   what: labels-were-scanned
   where: github
 - _id: 350
-  _time: 2024-08-31 23:36:09.579343258 Z
+  _time: 2024-09-01 02:25:31.395688808 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 798766850
   what: labels-were-scanned
   where: github
 - _id: 351
-  _time: 2024-08-31 23:36:09.591029492 Z
+  _time: 2024-09-01 02:25:31.411661403 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 373900298
   what: labels-were-scanned
   where: github
 - _id: 352
-  _time: 2024-08-31 23:36:09.602670210 Z
+  _time: 2024-09-01 02:25:31.424950649 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 489321585
   what: labels-were-scanned
   where: github
 - _id: 353
-  _time: 2024-08-31 23:36:09.615352394 Z
+  _time: 2024-09-01 02:25:31.436799035 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 784310467
   what: labels-were-scanned
   where: github
 - _id: 354
-  _time: 2024-08-31 23:36:09.629707674 Z
+  _time: 2024-09-01 02:25:31.448313085 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 546194972
   what: labels-were-scanned
   where: github
 - _id: 355
-  _time: 2024-08-31 23:36:09.640647644 Z
+  _time: 2024-09-01 02:25:31.460455101 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 624420387
   what: labels-were-scanned
   where: github
 - _id: 356
-  _time: 2024-08-31 23:36:09.651404340 Z
+  _time: 2024-09-01 02:25:31.472442287 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 501942888
   what: labels-were-scanned
   where: github
 - _id: 357
-  _time: 2024-08-31 23:36:09.662130570 Z
+  _time: 2024-09-01 02:25:31.484197548 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 593092058
   what: labels-were-scanned
   where: github
 - _id: 358
-  _time: 2024-08-31 23:36:09.673251117 Z
+  _time: 2024-09-01 02:25:31.495848815 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 13623548
   what: labels-were-scanned
   where: github
 - _id: 359
-  _time: 2024-08-31 23:36:09.683939266 Z
+  _time: 2024-09-01 02:25:31.508218928 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 840332960
   what: labels-were-scanned
   where: github
 - _id: 360
-  _time: 2024-08-31 23:36:09.694412042 Z
+  _time: 2024-09-01 02:25:31.519978387 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 531151981
   what: labels-were-scanned
   where: github
 - _id: 361
-  _time: 2024-08-31 23:36:09.706239309 Z
+  _time: 2024-09-01 02:25:31.532865680 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 709214061
   what: labels-were-scanned
   where: github
 - _id: 362
-  _time: 2024-08-31 23:36:09.718590124 Z
+  _time: 2024-09-01 02:25:31.546827828 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 659628214
   what: labels-were-scanned
   where: github
 - _id: 363
-  _time: 2024-08-31 23:36:09.729371106 Z
+  _time: 2024-09-01 02:25:31.558441644 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 671896902
   what: labels-were-scanned
   where: github
 - _id: 364
-  _time: 2024-08-31 23:36:09.768065930 Z
+  _time: 2024-09-01 02:25:31.570149066 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 574459304
   what: labels-were-scanned
   where: github
 - _id: 365
-  _time: 2024-08-31 23:36:09.782705361 Z
+  _time: 2024-09-01 02:25:31.582688537 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 501259435
   what: labels-were-scanned
   where: github
 - _id: 366
-  _time: 2024-08-31 23:36:09.795269845 Z
+  _time: 2024-09-01 02:25:31.595016281 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 731438612
   what: labels-were-scanned
   where: github
 - _id: 367
-  _time: 2024-08-31 23:36:09.806950208 Z
+  _time: 2024-09-01 02:25:31.605469823 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 490157985
   what: labels-were-scanned
   where: github
 - _id: 368
-  _time: 2024-08-31 23:36:09.818679892 Z
+  _time: 2024-09-01 02:25:31.616048669 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 499536612
   what: labels-were-scanned
   where: github
 - _id: 369
-  _time: 2024-08-31 23:36:09.830306534 Z
+  _time: 2024-09-01 02:25:31.627438836 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 721146770
   what: labels-were-scanned
   where: github
 - _id: 370
-  _time: 2024-08-31 23:36:09.842453288 Z
+  _time: 2024-09-01 02:25:31.637873402 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 447446664
   what: labels-were-scanned
   where: github
 - _id: 371
-  _time: 2024-08-31 23:36:09.854836785 Z
+  _time: 2024-09-01 02:25:31.648780845 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 731516758
   what: labels-were-scanned
   where: github
 - _id: 372
-  _time: 2024-08-31 23:36:09.866571799 Z
+  _time: 2024-09-01 02:25:31.659784728 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 493235807
   what: labels-were-scanned
   where: github
 - _id: 373
-  _time: 2024-08-31 23:36:09.878844739 Z
+  _time: 2024-09-01 02:25:31.670867078 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 519299365
   what: labels-were-scanned
   where: github
 - _id: 374
-  _time: 2024-08-31 23:36:09.890783524 Z
+  _time: 2024-09-01 02:25:31.681586719 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 490258619
   what: labels-were-scanned
   where: github
 - _id: 375
-  _time: 2024-08-31 23:36:09.902280744 Z
+  _time: 2024-09-01 02:25:31.692163932 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 543969974
   what: labels-were-scanned
   where: github
 - _id: 376
-  _time: 2024-08-31 23:36:09.914895122 Z
+  _time: 2024-09-01 02:25:31.722714840 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 558766137
   what: labels-were-scanned
   where: github
 - _id: 377
-  _time: 2024-08-31 23:36:09.927157873 Z
+  _time: 2024-09-01 02:25:31.736982099 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 386420319
   what: labels-were-scanned
   where: github
 - _id: 378
-  _time: 2024-08-31 23:36:09.939402409 Z
+  _time: 2024-09-01 02:25:31.750393825 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 574534248
   what: labels-were-scanned
   where: github
 - _id: 379
-  _time: 2024-08-31 23:36:10.174178480 Z
+  _time: 2024-09-01 02:25:32.141701371 Z
   _version: 0.4.0/0.26.0/
   latest: 0
   repository: 73056727
