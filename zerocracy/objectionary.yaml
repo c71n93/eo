@@ -3,405 +3,413 @@
   cycles: 5
   error:
   - undefined method `[]' for nil
-  - 'GET https://api.github.com/search/issues?per_page=100&q=repo%3Aobjectionary%2Feolang-paper+type%3Aissue+created%3A2024-09-17..2024-10-05:
+  - 'GET https://api.github.com/search/issues?per_page=100&q=repo%3Aobjectionary%2Fj2eo+type%3Apr+closed%3A%3E2024-09-17:
     403 - You have exceeded a secondary rate limit. Please wait a few minutes before
     you try again. If you reach out to GitHub Support for help, please include the
-    request ID 3280:3056CF:3664DF3:6736598:670E1863. // See: https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits'
-  - 'GET https://api.github.com/repos/objectionary/hone-maven-plugin/commits/a19a71fb3076dbbeb5174face75d585187d45b73:
-    403 - API rate limit exceeded for site ID installation. If you reach out to GitHub
-    Support for help, please include the request ID 3280:175CE7:F3CDDC4:1D0CCB39:670E18D0
-    and timestamp 2024-10-15 07:25:04 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+    request ID DC40:A6B6:F03E11F:1CAC102C:670E1F5E. // See: https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits'
+  - 'GET https://api.github.com/repos/objectionary/eo-collections: 403 - API rate
+    limit exceeded for site ID installation. If you reach out to GitHub Support for
+    help, please include the request ID DC40:142586:360E3A2:66C469C:670E20DF and timestamp
+    2024-10-15 07:59:27 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+  - 'GET https://api.github.com/users/objectionary/repos?per_page=100: 403 - API rate
+    limit exceeded for site ID installation. If you reach out to GitHub Support for
+    help, please include the request ID DC40:A6B6:F0A6949:1CB8E98D:670E211C and timestamp
+    2024-10-15 08:00:28 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
   removed: 8
-  seconds: 3121.762174248
+  seconds: 1935.390676705
   version: 0.26.1
   what: judges-summary
-  when: 2024-10-15 07:27:22.038351479 Z
+  when: 2024-10-15 08:00:28.735963042 Z
 - _id: 1
-  _time: 2024-10-15 06:35:20.638927669 Z
+  _time: 2024-10-15 07:28:13.655941272 Z
   _version: 0.4.0/0.26.1/
   total_forks: 226
   total_releases: 432
   total_repositories: 51
   total_stars: 1379
   what: dimensions-of-terrain
-  when: 2024-10-15 06:35:20.639213903 Z
+  when: 2024-10-15 07:28:13.656236776 Z
 - _id: 54
-  _time: 2024-10-15 06:35:51.404166607 Z
+  _time: 2024-10-15 07:29:01.524586027 Z
   _version: 0.4.0/0.26.1/
-  average_build_duration: 411.30839612486545
-  average_build_mttr: -52626
-  average_build_success_rate: 0.7979009687836384
+  average_build_duration: 411.2060801721819
+  average_build_mttr: -52644
+  average_build_success_rate: 0.7976863061608824
   average_issue_lifetime: 9538225.764705881
-  average_pull_lifetime: 2829623.5234375
   average_release_interval: 235091.85714285713
-  since: 2024-09-17 06:35:51.404358364 Z
+  since: 2024-09-17 07:29:01.524742981 Z
   what: quality-of-service
-  when: 2024-10-15 06:35:51.404283215 Z
+  when: 2024-10-15 07:29:01.524684131 Z
 - _id: 55
-  _time: 2024-10-15 07:23:15.742467351 Z
+  _time: 2024-10-15 07:53:02.650894165 Z
   _version: 0.4.0/0.26.1/
-  since: 2024-09-17 07:23:15.742660752 Z
+  since: 2024-09-17 07:53:02.651079472 Z
+  total_commits_pushed: 458
+  total_hoc_committed: 37574
+  total_issues_created: 197
+  total_pulls_submitted: 104
+  total_releases_published: 8
   what: quantity-of-deliverables
-  when: 2024-10-15 07:23:15.742594278 Z
-- _id: 212
-  _time: 2024-10-15 07:27:15.390356183 Z
+  when: 2024-10-15 07:53:02.651010714 Z
+- _id: 160
+  _time: 2024-10-15 07:58:13.212257364 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490221501
   what: events-were-scanned
   where: github
-- _id: 213
-  _time: 2024-10-15 07:27:21.690523535 Z
+- _id: 161
+  _time: 2024-10-15 07:58:22.075827698 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490221501
   what: labels-were-scanned
   where: github
-- _id: 214
-  _time: 2024-10-15 07:27:21.702614093 Z
+- _id: 162
+  _time: 2024-10-15 07:58:22.082656311 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 552394123
   what: labels-were-scanned
   where: github
-- _id: 215
-  _time: 2024-10-15 07:27:21.713401663 Z
+- _id: 163
+  _time: 2024-10-15 07:58:22.090397581 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 581460427
   what: labels-were-scanned
   where: github
-- _id: 216
-  _time: 2024-10-15 07:27:21.720844677 Z
+- _id: 164
+  _time: 2024-10-15 07:58:22.096563157 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 733919301
   what: labels-were-scanned
   where: github
-- _id: 217
-  _time: 2024-10-15 07:27:21.726904523 Z
+- _id: 165
+  _time: 2024-10-15 07:58:22.104082783 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 518891717
   what: labels-were-scanned
   where: github
-- _id: 218
-  _time: 2024-10-15 07:27:21.733303122 Z
+- _id: 166
+  _time: 2024-10-15 07:58:22.110470903 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 559427983
   what: labels-were-scanned
   where: github
-- _id: 219
-  _time: 2024-10-15 07:27:21.739020689 Z
+- _id: 167
+  _time: 2024-10-15 07:58:22.116288645 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 483303722
   what: labels-were-scanned
   where: github
-- _id: 220
-  _time: 2024-10-15 07:27:21.745021997 Z
+- _id: 168
+  _time: 2024-10-15 07:58:22.123337460 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 575859928
   what: labels-were-scanned
   where: github
-- _id: 221
-  _time: 2024-10-15 07:27:21.750753611 Z
+- _id: 169
+  _time: 2024-10-15 07:58:22.130390594 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 562850967
   what: labels-were-scanned
   where: github
-- _id: 222
-  _time: 2024-10-15 07:27:21.756666063 Z
+- _id: 170
+  _time: 2024-10-15 07:58:22.137398442 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 73056727
   what: labels-were-scanned
   where: github
-- _id: 223
-  _time: 2024-10-15 07:27:21.762218263 Z
+- _id: 171
+  _time: 2024-10-15 07:58:22.144091842 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 565789755
   what: labels-were-scanned
   where: github
-- _id: 224
-  _time: 2024-10-15 07:27:21.768025989 Z
+- _id: 172
+  _time: 2024-10-15 07:58:22.150432082 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 403396472
   what: labels-were-scanned
   where: github
-- _id: 225
-  _time: 2024-10-15 07:27:21.773847441 Z
+- _id: 173
+  _time: 2024-10-15 07:58:22.156871938 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 396732517
   what: labels-were-scanned
   where: github
-- _id: 226
-  _time: 2024-10-15 07:27:21.780216754 Z
+- _id: 174
+  _time: 2024-10-15 07:58:22.163568825 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 570457023
   what: labels-were-scanned
   where: github
-- _id: 227
-  _time: 2024-10-15 07:27:21.786127482 Z
+- _id: 175
+  _time: 2024-10-15 07:58:22.169858681 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 492899189
   what: labels-were-scanned
   where: github
-- _id: 228
-  _time: 2024-10-15 07:27:21.793909830 Z
+- _id: 176
+  _time: 2024-10-15 07:58:22.177759680 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 362152931
   what: labels-were-scanned
   where: github
-- _id: 229
-  _time: 2024-10-15 07:27:21.799651152 Z
+- _id: 177
+  _time: 2024-10-15 07:58:22.184689893 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 482612876
   what: labels-were-scanned
   where: github
-- _id: 230
-  _time: 2024-10-15 07:27:21.805991923 Z
+- _id: 178
+  _time: 2024-10-15 07:58:22.191185424 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 731438612
   what: labels-were-scanned
   where: github
-- _id: 231
-  _time: 2024-10-15 07:27:21.813038408 Z
+- _id: 179
+  _time: 2024-10-15 07:58:22.198541424 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 510102039
   what: labels-were-scanned
   where: github
-- _id: 232
-  _time: 2024-10-15 07:27:21.820484719 Z
+- _id: 180
+  _time: 2024-10-15 07:58:22.204860954 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 510082372
   what: labels-were-scanned
   where: github
-- _id: 233
-  _time: 2024-10-15 07:27:21.828147613 Z
+- _id: 181
+  _time: 2024-10-15 07:58:22.211275423 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 519246071
   what: labels-were-scanned
   where: github
-- _id: 234
-  _time: 2024-10-15 07:27:21.834801316 Z
+- _id: 182
+  _time: 2024-10-15 07:58:22.218035217 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 551486781
   what: labels-were-scanned
   where: github
-- _id: 235
-  _time: 2024-10-15 07:27:21.841742466 Z
+- _id: 183
+  _time: 2024-10-15 07:58:22.227565835 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 568705267
   what: labels-were-scanned
   where: github
-- _id: 236
-  _time: 2024-10-15 07:27:21.848845006 Z
+- _id: 184
+  _time: 2024-10-15 07:58:22.237936784 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 798766850
   what: labels-were-scanned
   where: github
-- _id: 237
-  _time: 2024-10-15 07:27:21.855800862 Z
+- _id: 185
+  _time: 2024-10-15 07:58:22.248686412 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 373900298
   what: labels-were-scanned
   where: github
-- _id: 238
-  _time: 2024-10-15 07:27:21.863179296 Z
+- _id: 186
+  _time: 2024-10-15 07:58:22.259635964 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 489321585
   what: labels-were-scanned
   where: github
-- _id: 239
-  _time: 2024-10-15 07:27:21.870138189 Z
+- _id: 187
+  _time: 2024-10-15 07:58:22.270076113 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 784310467
   what: labels-were-scanned
   where: github
-- _id: 240
-  _time: 2024-10-15 07:27:21.876667701 Z
+- _id: 188
+  _time: 2024-10-15 07:58:22.280666212 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 546194972
   what: labels-were-scanned
   where: github
-- _id: 241
-  _time: 2024-10-15 07:27:21.883538338 Z
+- _id: 189
+  _time: 2024-10-15 07:58:22.291439254 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 624420387
   what: labels-were-scanned
   where: github
-- _id: 242
-  _time: 2024-10-15 07:27:21.890257474 Z
+- _id: 190
+  _time: 2024-10-15 07:58:22.302024574 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 501942888
   what: labels-were-scanned
   where: github
-- _id: 243
-  _time: 2024-10-15 07:27:21.897112472 Z
+- _id: 191
+  _time: 2024-10-15 07:58:22.311957114 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 593092058
   what: labels-were-scanned
   where: github
-- _id: 244
-  _time: 2024-10-15 07:27:21.904292026 Z
+- _id: 192
+  _time: 2024-10-15 07:58:22.320270605 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 13623548
   what: labels-were-scanned
   where: github
-- _id: 245
-  _time: 2024-10-15 07:27:21.911663958 Z
+- _id: 193
+  _time: 2024-10-15 07:58:22.336159896 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 840332960
   what: labels-were-scanned
   where: github
-- _id: 246
-  _time: 2024-10-15 07:27:21.919259797 Z
+- _id: 194
+  _time: 2024-10-15 07:58:22.347011244 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 531151981
   what: labels-were-scanned
   where: github
-- _id: 247
-  _time: 2024-10-15 07:27:21.927373012 Z
+- _id: 195
+  _time: 2024-10-15 07:58:22.364840224 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 709214061
   what: labels-were-scanned
   where: github
-- _id: 248
-  _time: 2024-10-15 07:27:21.936474939 Z
+- _id: 196
+  _time: 2024-10-15 07:58:22.387596642 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 659628214
   what: labels-were-scanned
   where: github
-- _id: 249
-  _time: 2024-10-15 07:27:21.944183368 Z
+- _id: 197
+  _time: 2024-10-15 07:58:22.407222893 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 671896902
   what: labels-were-scanned
   where: github
-- _id: 250
-  _time: 2024-10-15 07:27:21.951386406 Z
+- _id: 198
+  _time: 2024-10-15 07:58:22.417560611 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 574459304
   what: labels-were-scanned
   where: github
-- _id: 251
-  _time: 2024-10-15 07:27:21.958014912 Z
+- _id: 199
+  _time: 2024-10-15 07:58:22.429415175 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 501259435
   what: labels-were-scanned
   where: github
-- _id: 252
-  _time: 2024-10-15 07:27:21.965512619 Z
+- _id: 200
+  _time: 2024-10-15 07:58:22.440770346 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490157985
   what: labels-were-scanned
   where: github
-- _id: 253
-  _time: 2024-10-15 07:27:21.971755105 Z
+- _id: 201
+  _time: 2024-10-15 07:58:22.451763318 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 499536612
   what: labels-were-scanned
   where: github
-- _id: 254
-  _time: 2024-10-15 07:27:21.978419849 Z
+- _id: 202
+  _time: 2024-10-15 07:58:22.458803067 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 721146770
   what: labels-were-scanned
   where: github
-- _id: 255
-  _time: 2024-10-15 07:27:21.984072476 Z
+- _id: 203
+  _time: 2024-10-15 07:58:22.465531132 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 447446664
   what: labels-were-scanned
   where: github
-- _id: 256
-  _time: 2024-10-15 07:27:21.990265171 Z
+- _id: 204
+  _time: 2024-10-15 07:58:22.473395252 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 731516758
   what: labels-were-scanned
   where: github
-- _id: 257
-  _time: 2024-10-15 07:27:21.996363258 Z
+- _id: 205
+  _time: 2024-10-15 07:58:22.482572298 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 493235807
   what: labels-were-scanned
   where: github
-- _id: 258
-  _time: 2024-10-15 07:27:22.002614240 Z
+- _id: 206
+  _time: 2024-10-15 07:58:22.491493747 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 519299365
   what: labels-were-scanned
   where: github
-- _id: 259
-  _time: 2024-10-15 07:27:22.008680569 Z
+- _id: 207
+  _time: 2024-10-15 07:58:22.499911713 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490258619
   what: labels-were-scanned
   where: github
-- _id: 260
-  _time: 2024-10-15 07:27:22.014467016 Z
+- _id: 208
+  _time: 2024-10-15 07:58:22.507133371 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 543969974
   what: labels-were-scanned
   where: github
-- _id: 261
-  _time: 2024-10-15 07:27:22.020361504 Z
+- _id: 209
+  _time: 2024-10-15 07:58:22.514261114 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 558766137
   what: labels-were-scanned
   where: github
-- _id: 262
-  _time: 2024-10-15 07:27:22.026323428 Z
+- _id: 210
+  _time: 2024-10-15 07:58:22.520617654 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 386420319
   what: labels-were-scanned
   where: github
-- _id: 263
-  _time: 2024-10-15 07:27:22.032468693 Z
+- _id: 211
+  _time: 2024-10-15 07:58:22.529600628 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 574534248
