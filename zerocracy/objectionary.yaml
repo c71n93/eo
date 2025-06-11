@@ -3,34 +3,23 @@
   cycles: 5
   error:
   - The value of 'default_branch' can't be nil
-  - 'GET https://api.github.com/repos/objectionary/hone-maven-plugin/actions/runs/15457156722/timing:
-    403 - API rate limit exceeded for installation. If you reach out to GitHub Support
-    for help, please include the request ID 7818:BDABF:B87978:16D4498:6849A221 and
-    timestamp 2025-06-11 15:34:57 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
-  - 'GET https://api.github.com/users/objectionary/repos?per_page=100: 403 - API rate
-    limit exceeded for installation. If you reach out to GitHub Support for help,
-    please include the request ID 7818:267A4E:181E129:3022223:6849A25D and timestamp
-    2025-06-11 15:35:57 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
-  - 'GET https://api.github.com/users/objectionary/repos?per_page=100: 403 - API rate
-    limit exceeded for installation. If you reach out to GitHub Support for help,
-    please include the request ID 7818:267A4E:18328D2:304A62A:6849A299 and timestamp
-    2025-06-11 15:36:57 UTC. // See: https://docs.github.com/rest/overview/rate-limits-for-the-rest-api'
+  - undefined method `-' for nil
   removed: 8
-  seconds: 1149.876424645
+  seconds: 5412.118450195
   version: 0.26.1
   what: judges-summary
-  when: 2025-06-11 15:39:11.836054431 Z
+  when: 2025-06-11 17:53:45.993041350 Z
 - _id: 1
-  _time: 2025-06-11 15:20:02.283831576 Z
+  _time: 2025-06-11 16:23:34.200730917 Z
   _version: 0.4.0/0.26.1/
   total_forks: 332
   total_releases: 609
   total_repositories: 45
   total_stars: 1635
   what: dimensions-of-terrain
-  when: 2025-06-11 15:20:02.284075321 Z
+  when: 2025-06-11 16:23:34.200946962 Z
 - _id: 3
-  _time: 2025-06-11 15:20:24.416866619 Z
+  _time: 2025-06-11 16:24:00.125716579 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request objectionary/benchmark#67 has been opened by @renovate[bot].
@@ -44,7 +33,7 @@
   where: github
   who: 29139614
 - _id: 4
-  _time: 2025-06-11 15:20:24.500621078 Z
+  _time: 2025-06-11 16:24:00.238483821 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/yegor256-copyrights-action-0.x
   details: The pull request objectionary/benchmark#66 has been opened by @renovate[bot].
@@ -58,7 +47,7 @@
   where: github
   who: 29139614
 - _id: 5
-  _time: 2025-06-11 15:20:24.508612526 Z
+  _time: 2025-06-11 16:24:00.245394538 Z
   _version: 0.4.0/0.26.1/
   commit: 71d54ed2b9802ab5e70963cbdf306a9a7b6fc9fd
   default_branch: master
@@ -76,7 +65,7 @@
   where: github
   who: 526301
 - _id: 6
-  _time: 2025-06-11 15:20:24.700986541 Z
+  _time: 2025-06-11 16:24:00.546232449 Z
   _version: 0.4.0/0.26.1/
   commit: f13258700cc0c273d0a810d2e4d150b9d5260f65
   default_branch: master
@@ -94,7 +83,7 @@
   where: github
   who: 526301
 - _id: 9
-  _time: 2025-06-11 15:20:25.469786155 Z
+  _time: 2025-06-11 16:24:01.554481929 Z
   _version: 0.4.0/0.26.1/
   commit: 0f8deadbda671e669d2afe026dbdde6be435ed3b
   default_branch: master
@@ -112,7 +101,25 @@
   where: github
   who: 526301
 - _id: 11
-  _time: 2025-06-11 15:20:27.307935098 Z
+  _time: 2025-06-11 16:24:03.567983741 Z
+  _version: 0.4.0/0.26.1/
+  commit: 749589afd0191eeda4828279c39627d1344104f0
+  default_branch: master
+  details: 'A new Git push #24834341830 has arrived to objectionary/eo, made by @yegor256
+    (default branch is ''master''), not associated with any pull request.'
+  event_id: 50778306114
+  event_type: PushEvent
+  is_human: 1
+  push_id: 24834341830
+  ref: refs/heads/master
+  repository: 73056727
+  to_master: 1
+  what: git-was-pushed
+  when: 2025-06-11 14:23:12.000000000 Z
+  where: github
+  who: 526301
+- _id: 12
+  _time: 2025-06-11 16:24:04.000821860 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4260 has been closed by @yegor256.
   event_id: 50729775524
@@ -124,8 +131,8 @@
   when: 2025-06-10 15:24:40.000000000 Z
   where: github
   who: 526301
-- _id: 12
-  _time: 2025-06-11 15:20:27.530731233 Z
+- _id: 13
+  _time: 2025-06-11 16:24:04.301939269 Z
   _version: 0.4.0/0.26.1/
   branch: '4261'
   details: The pull request objectionary/eo#4276 has been opened by @h1alexbel.
@@ -138,8 +145,8 @@
   when: 2025-06-10 12:59:54.000000000 Z
   where: github
   who: 83453843
-- _id: 13
-  _time: 2025-06-11 15:20:27.633890334 Z
+- _id: 14
+  _time: 2025-06-11 16:24:04.478738500 Z
   _version: 0.4.0/0.26.1/
   branch: 4201-log-stderr
   comments: 7
@@ -162,8 +169,8 @@
   when: 2025-06-10 12:47:31.000000000 Z
   where: github
   who: 526301
-- _id: 14
-  _time: 2025-06-11 15:20:43.234834038 Z
+- _id: 15
+  _time: 2025-06-11 16:24:20.273214796 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4201 has been closed by @yegor256.
   event_id: 50723604288
@@ -175,8 +182,8 @@
   when: 2025-06-10 12:46:56.000000000 Z
   where: github
   who: 526301
-- _id: 15
-  _time: 2025-06-11 15:20:43.241389928 Z
+- _id: 16
+  _time: 2025-06-11 16:24:20.281719320 Z
   _version: 0.4.0/0.26.1/
   comments: 7
   commits: 1
@@ -193,8 +200,8 @@
   when: 2025-06-10 12:46:37.000000000 Z
   where: github
   who: 526301
-- _id: 16
-  _time: 2025-06-11 15:20:43.816928435 Z
+- _id: 17
+  _time: 2025-06-11 16:24:20.833374637 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/com.yegor256-jaxec-0.x
   comments: 2
@@ -217,8 +224,8 @@
   when: 2025-06-10 12:46:19.000000000 Z
   where: github
   who: 29139614
-- _id: 17
-  _time: 2025-06-11 15:20:53.559328642 Z
+- _id: 18
+  _time: 2025-06-11 16:24:31.694818681 Z
   _version: 0.4.0/0.26.1/
   branch: 4201-log-stderr
   details: The pull request objectionary/eo#4275 has been opened by @volodya-lombrozo.
@@ -231,8 +238,8 @@
   when: 2025-06-10 10:47:58.000000000 Z
   where: github
   who: 51804353
-- _id: 18
-  _time: 2025-06-11 15:20:53.577017654 Z
+- _id: 19
+  _time: 2025-06-11 16:24:31.768302189 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/com.yegor256-jaxec-0.x
   details: The pull request objectionary/eo#4274 has been opened by @renovate[bot].
@@ -245,8 +252,8 @@
   when: 2025-06-10 09:15:03.000000000 Z
   where: github
   who: 29139614
-- _id: 19
-  _time: 2025-06-11 15:20:53.590944414 Z
+- _id: 20
+  _time: 2025-06-11 16:24:31.820195263 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4273 has been opened by @l3r8yJ.
   event_id: 50697511440
@@ -258,8 +265,8 @@
   when: 2025-06-09 23:03:55.000000000 Z
   where: github
   who: 46355873
-- _id: 20
-  _time: 2025-06-11 15:20:53.603356707 Z
+- _id: 21
+  _time: 2025-06-11 16:24:31.858253434 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4173 has been closed by @saleemasekrea000.
   event_id: 50682855101
@@ -271,8 +278,8 @@
   when: 2025-06-09 15:48:32.000000000 Z
   where: github
   who: 144629807
-- _id: 21
-  _time: 2025-06-11 15:20:53.983333107 Z
+- _id: 22
+  _time: 2025-06-11 16:24:32.327457365 Z
   _version: 0.4.0/0.26.1/
   branch: '4260'
   comments: 5
@@ -295,8 +302,8 @@
   when: 2025-06-09 15:24:05.000000000 Z
   where: github
   who: 526301
-- _id: 22
-  _time: 2025-06-11 15:21:03.748941705 Z
+- _id: 23
+  _time: 2025-06-11 16:24:43.711395618 Z
   _version: 0.4.0/0.26.1/
   comments: 5
   commits: 4
@@ -313,8 +320,8 @@
   when: 2025-06-09 15:23:16.000000000 Z
   where: github
   who: 526301
-- _id: 23
-  _time: 2025-06-11 15:21:04.254524271 Z
+- _id: 24
+  _time: 2025-06-11 16:24:44.302218405 Z
   _version: 0.4.0/0.26.1/
   branch: '4133'
   details: The pull request objectionary/eo#4272 has been opened by @h1alexbel.
@@ -327,8 +334,8 @@
   when: 2025-06-09 13:48:05.000000000 Z
   where: github
   who: 83453843
-- _id: 24
-  _time: 2025-06-11 15:21:04.283664558 Z
+- _id: 25
+  _time: 2025-06-11 16:24:44.331926495 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#3480 has been closed by @yegor256.
   event_id: 50676554501
@@ -340,8 +347,8 @@
   when: 2025-06-09 13:25:09.000000000 Z
   where: github
   who: 526301
-- _id: 25
-  _time: 2025-06-11 15:21:04.300021824 Z
+- _id: 26
+  _time: 2025-06-11 16:24:44.348494524 Z
   _version: 0.4.0/0.26.1/
   branch: '4262'
   comments: 6
@@ -364,8 +371,8 @@
   when: 2025-06-09 13:24:44.000000000 Z
   where: github
   who: 526301
-- _id: 26
-  _time: 2025-06-11 15:21:14.171213179 Z
+- _id: 27
+  _time: 2025-06-11 16:24:56.107881882 Z
   _version: 0.4.0/0.26.1/
   comments: 7
   commits: 2
@@ -382,8 +389,8 @@
   when: 2025-06-09 13:24:27.000000000 Z
   where: github
   who: 526301
-- _id: 27
-  _time: 2025-06-11 15:21:14.644129225 Z
+- _id: 28
+  _time: 2025-06-11 16:24:56.569532116 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4239 has been closed by @yegor256.
   event_id: 50671913871
@@ -395,8 +402,8 @@
   when: 2025-06-09 11:22:58.000000000 Z
   where: github
   who: 526301
-- _id: 28
-  _time: 2025-06-11 15:21:14.651392210 Z
+- _id: 29
+  _time: 2025-06-11 16:24:56.577303945 Z
   _version: 0.4.0/0.26.1/
   branch: 4203-lost-probes
   comments: 4
@@ -419,8 +426,8 @@
   when: 2025-06-09 11:22:58.000000000 Z
   where: github
   who: 526301
-- _id: 29
-  _time: 2025-06-11 15:21:24.719165225 Z
+- _id: 30
+  _time: 2025-06-11 16:25:08.519585830 Z
   _version: 0.4.0/0.26.1/
   comments: 6
   commits: 1
@@ -437,8 +444,8 @@
   when: 2025-06-09 11:22:35.000000000 Z
   where: github
   who: 526301
-- _id: 30
-  _time: 2025-06-11 15:21:24.994798527 Z
+- _id: 31
+  _time: 2025-06-11 16:25:09.261702329 Z
   _version: 0.4.0/0.26.1/
   branch: 4203-lost-probes
   details: The pull request objectionary/eo#4271 has been opened by @volodya-lombrozo.
@@ -451,8 +458,8 @@
   when: 2025-06-09 10:18:38.000000000 Z
   where: github
   who: 51804353
-- _id: 31
-  _time: 2025-06-11 15:21:25.167329585 Z
+- _id: 32
+  _time: 2025-06-11 16:25:09.278678552 Z
   _version: 0.4.0/0.26.1/
   branch: '4260'
   details: The pull request objectionary/eo#4270 has been opened by @h1alexbel.
@@ -465,8 +472,8 @@
   when: 2025-06-09 09:51:39.000000000 Z
   where: github
   who: 83453843
-- _id: 32
-  _time: 2025-06-11 15:21:25.193140851 Z
+- _id: 33
+  _time: 2025-06-11 16:25:09.302252833 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 2
@@ -489,8 +496,8 @@
   when: 2025-06-09 09:37:57.000000000 Z
   where: github
   who: 526301
-- _id: 33
-  _time: 2025-06-11 15:21:37.334833081 Z
+- _id: 34
+  _time: 2025-06-11 16:25:20.543938660 Z
   _version: 0.4.0/0.26.1/
   comments: 3
   commits: 1
@@ -507,8 +514,8 @@
   when: 2025-06-09 09:37:34.000000000 Z
   where: github
   who: 526301
-- _id: 34
-  _time: 2025-06-11 15:21:37.754046290 Z
+- _id: 35
+  _time: 2025-06-11 16:25:20.894329117 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request objectionary/eo#4269 has been opened by @renovate[bot].
@@ -521,8 +528,8 @@
   when: 2025-06-09 09:30:22.000000000 Z
   where: github
   who: 29139614
-- _id: 35
-  _time: 2025-06-11 15:21:37.844983313 Z
+- _id: 36
+  _time: 2025-06-11 16:25:21.022387326 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/org.apache.maven-maven-core-3.x
   comments: 5
@@ -545,8 +552,8 @@
   when: 2025-06-09 09:29:05.000000000 Z
   where: github
   who: 526301
-- _id: 36
-  _time: 2025-06-11 15:21:52.696553045 Z
+- _id: 37
+  _time: 2025-06-11 16:25:33.093949271 Z
   _version: 0.4.0/0.26.1/
   comments: 6
   commits: 1
@@ -563,8 +570,8 @@
   when: 2025-06-09 09:28:45.000000000 Z
   where: github
   who: 526301
-- _id: 37
-  _time: 2025-06-11 15:21:53.199148507 Z
+- _id: 38
+  _time: 2025-06-11 16:25:33.588843965 Z
   _version: 0.4.0/0.26.1/
   branch: '4262'
   details: The pull request objectionary/eo#4268 has been opened by @h1alexbel.
@@ -577,8 +584,8 @@
   when: 2025-06-09 08:39:03.000000000 Z
   where: github
   who: 83453843
-- _id: 39
-  _time: 2025-06-11 15:21:53.429644316 Z
+- _id: 40
+  _time: 2025-06-11 16:25:33.916838902 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4266 has been opened by @0pdd.
   event_id: 50650161860
@@ -590,8 +597,8 @@
   when: 2025-06-08 18:14:25.000000000 Z
   where: github
   who: 24456188
-- _id: 40
-  _time: 2025-06-11 15:21:53.454227358 Z
+- _id: 41
+  _time: 2025-06-11 16:25:33.931650598 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4265 has been opened by @0pdd.
   event_id: 50650161262
@@ -603,8 +610,8 @@
   when: 2025-06-08 18:14:23.000000000 Z
   where: github
   who: 24456188
-- _id: 41
-  _time: 2025-06-11 15:21:53.475571985 Z
+- _id: 42
+  _time: 2025-06-11 16:25:33.944595384 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4264 has been opened by @0pdd.
   event_id: 50650160870
@@ -616,8 +623,8 @@
   when: 2025-06-08 18:14:21.000000000 Z
   where: github
   who: 24456188
-- _id: 42
-  _time: 2025-06-11 15:21:53.487684587 Z
+- _id: 43
+  _time: 2025-06-11 16:25:33.964365858 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4263 has been opened by @0pdd.
   event_id: 50650160293
@@ -629,8 +636,8 @@
   when: 2025-06-08 18:14:19.000000000 Z
   where: github
   who: 24456188
-- _id: 43
-  _time: 2025-06-11 15:21:53.902837288 Z
+- _id: 44
+  _time: 2025-06-11 16:25:34.322445275 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4235 has been closed by @yegor256.
   event_id: 50650158766
@@ -642,8 +649,8 @@
   when: 2025-06-08 18:14:11.000000000 Z
   where: github
   who: 526301
-- _id: 44
-  _time: 2025-06-11 15:21:53.911626887 Z
+- _id: 45
+  _time: 2025-06-11 16:25:34.331428637 Z
   _version: 0.4.0/0.26.1/
   branch: '4235'
   comments: 10
@@ -666,8 +673,8 @@
   when: 2025-06-08 18:14:11.000000000 Z
   where: github
   who: 526301
-- _id: 45
-  _time: 2025-06-11 15:22:05.466477077 Z
+- _id: 46
+  _time: 2025-06-11 16:25:47.494004385 Z
   _version: 0.4.0/0.26.1/
   comments: 14
   commits: 19
@@ -684,8 +691,8 @@
   when: 2025-06-08 18:14:03.000000000 Z
   where: github
   who: 526301
-- _id: 46
-  _time: 2025-06-11 15:22:05.883407958 Z
+- _id: 47
+  _time: 2025-06-11 16:25:47.994232701 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4262 has been opened by @yegor256.
   event_id: 50648652770
@@ -697,8 +704,8 @@
   when: 2025-06-08 16:16:43.000000000 Z
   where: github
   who: 526301
-- _id: 47
-  _time: 2025-06-11 15:22:05.891451515 Z
+- _id: 48
+  _time: 2025-06-11 16:25:48.002736581 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4261 has been opened by @yegor256.
   event_id: 50648603727
@@ -710,8 +717,8 @@
   when: 2025-06-08 16:13:04.000000000 Z
   where: github
   who: 526301
-- _id: 48
-  _time: 2025-06-11 15:22:05.899531710 Z
+- _id: 49
+  _time: 2025-06-11 16:25:48.010980953 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo#4260 has been opened by @yegor256.
   event_id: 50648461641
@@ -723,8 +730,8 @@
   when: 2025-06-08 16:02:18.000000000 Z
   where: github
   who: 526301
-- _id: 49
-  _time: 2025-06-11 15:22:06.303227948 Z
+- _id: 50
+  _time: 2025-06-11 16:25:48.309510341 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 5
@@ -747,8 +754,8 @@
   when: 2025-06-08 14:50:59.000000000 Z
   where: github
   who: 526301
-- _id: 50
-  _time: 2025-06-11 15:22:16.627997830 Z
+- _id: 51
+  _time: 2025-06-11 16:25:59.914967941 Z
   _version: 0.4.0/0.26.1/
   comments: 6
   commits: 1
@@ -765,8 +772,8 @@
   when: 2025-06-08 14:50:37.000000000 Z
   where: github
   who: 526301
-- _id: 51
-  _time: 2025-06-11 15:22:16.961498862 Z
+- _id: 52
+  _time: 2025-06-11 16:26:00.199701496 Z
   _version: 0.4.0/0.26.1/
   comments: 14
   commits: 19
@@ -783,8 +790,8 @@
   when: 2025-06-08 14:21:22.000000000 Z
   where: github
   who: 37025995
-- _id: 52
-  _time: 2025-06-11 15:22:17.136200188 Z
+- _id: 53
+  _time: 2025-06-11 16:26:00.431696739 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request objectionary/eo#4259 has been opened by @renovate[bot].
@@ -797,8 +804,8 @@
   when: 2025-06-08 09:47:32.000000000 Z
   where: github
   who: 29139614
-- _id: 53
-  _time: 2025-06-11 15:22:17.213427604 Z
+- _id: 54
+  _time: 2025-06-11 16:26:00.508109444 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-pages-action-0.x
   comments: 2
@@ -821,8 +828,8 @@
   when: 2025-06-08 06:03:09.000000000 Z
   where: github
   who: 526301
-- _id: 54
-  _time: 2025-06-11 15:22:26.973006330 Z
+- _id: 55
+  _time: 2025-06-11 16:26:12.375412541 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   comments: 2
@@ -845,8 +852,8 @@
   when: 2025-06-08 06:03:08.000000000 Z
   where: github
   who: 526301
-- _id: 55
-  _time: 2025-06-11 15:22:36.573109382 Z
+- _id: 56
+  _time: 2025-06-11 16:26:23.820245391 Z
   _version: 0.4.0/0.26.1/
   comments: 3
   commits: 1
@@ -863,8 +870,8 @@
   when: 2025-06-08 06:03:00.000000000 Z
   where: github
   who: 526301
-- _id: 56
-  _time: 2025-06-11 15:22:36.825783387 Z
+- _id: 57
+  _time: 2025-06-11 16:26:24.150630416 Z
   _version: 0.4.0/0.26.1/
   comments: 3
   commits: 1
@@ -881,8 +888,8 @@
   when: 2025-06-08 06:02:45.000000000 Z
   where: github
   who: 526301
-- _id: 57
-  _time: 2025-06-11 15:22:37.295156862 Z
+- _id: 58
+  _time: 2025-06-11 16:26:24.715871396 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-pages-action-0.x
   details: The pull request objectionary/eo#4258 has been opened by @renovate[bot].
@@ -895,8 +902,8 @@
   when: 2025-06-08 05:55:45.000000000 Z
   where: github
   who: 29139614
-- _id: 58
-  _time: 2025-06-11 15:22:37.372228342 Z
+- _id: 59
+  _time: 2025-06-11 16:26:24.847585215 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/zerocracy-judges-action-0.x
   details: The pull request objectionary/eo#4257 has been opened by @renovate[bot].
@@ -909,8 +916,8 @@
   when: 2025-06-08 05:55:42.000000000 Z
   where: github
   who: 29139614
-- _id: 60
-  _time: 2025-06-11 15:22:38.004622179 Z
+- _id: 61
+  _time: 2025-06-11 16:26:25.489189096 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/crate-ci-typos-1.x
   details: The pull request objectionary/eo-book#43 has been opened by @renovate[bot].
@@ -923,8 +930,8 @@
   when: 2025-06-02 17:47:38.000000000 Z
   where: github
   who: 29139614
-- _id: 61
-  _time: 2025-06-11 15:22:38.024039860 Z
+- _id: 62
+  _time: 2025-06-11 16:26:25.566359545 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/yegor256-copyrights-action-0.x
   details: The pull request objectionary/eo-book#42 has been opened by @renovate[bot].
@@ -937,8 +944,8 @@
   when: 2025-05-26 14:25:18.000000000 Z
   where: github
   who: 29139614
-- _id: 62
-  _time: 2025-06-11 15:22:38.039303857 Z
+- _id: 63
+  _time: 2025-06-11 16:26:25.596608044 Z
   _version: 0.4.0/0.26.1/
   commit: a03a233c59bfb0f38b8a310c55da085a258754f3
   default_branch: master
@@ -955,8 +962,8 @@
   when: 2025-05-19 09:31:00.000000000 Z
   where: github
   who: 526301
-- _id: 63
-  _time: 2025-06-11 15:22:38.199857040 Z
+- _id: 64
+  _time: 2025-06-11 16:26:25.776079349 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/yegor256-latexmk-action-0.x
   details: The pull request objectionary/eo-book#41 has been opened by @renovate[bot].
@@ -969,8 +976,8 @@
   when: 2025-05-17 07:22:57.000000000 Z
   where: github
   who: 29139614
-- _id: 66
-  _time: 2025-06-11 15:22:39.050904306 Z
+- _id: 67
+  _time: 2025-06-11 16:26:27.108596736 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/yegor256-copyrights-action-0.x
   details: The pull request objectionary/eo-graphs#26 has been opened by @renovate[bot].
@@ -983,8 +990,8 @@
   when: 2025-05-31 04:14:14.000000000 Z
   where: github
   who: 29139614
-- _id: 67
-  _time: 2025-06-11 15:22:39.069269222 Z
+- _id: 68
+  _time: 2025-06-11 16:26:27.129575671 Z
   _version: 0.4.0/0.26.1/
   commit: 35b72870695587dd9497114b21381e1f6079ea93
   default_branch: master
@@ -1001,8 +1008,8 @@
   when: 2025-05-19 09:31:13.000000000 Z
   where: github
   who: 526301
-- _id: 68
-  _time: 2025-06-11 15:22:39.323177172 Z
+- _id: 69
+  _time: 2025-06-11 16:26:27.322306410 Z
   _version: 0.4.0/0.26.1/
   commit: 6d8b9f4ee3218419d868e0096e30ecd180c95621
   default_branch: master
@@ -1019,8 +1026,8 @@
   when: 2025-05-13 12:21:08.000000000 Z
   where: github
   who: 526301
-- _id: 71
-  _time: 2025-06-11 15:22:40.761156263 Z
+- _id: 72
+  _time: 2025-06-11 16:26:29.020009201 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/yegor256-copyrights-action-0.x
   details: The pull request objectionary/eo-intellij-plugin#70 has been opened by
@@ -1034,8 +1041,8 @@
   when: 2025-05-26 14:19:34.000000000 Z
   where: github
   who: 29139614
-- _id: 72
-  _time: 2025-06-11 15:22:40.794026614 Z
+- _id: 73
+  _time: 2025-06-11 16:26:29.040932693 Z
   _version: 0.4.0/0.26.1/
   details: The issue objectionary/eo-intellij-plugin#69 has been opened by @xzescha.
   event_id: 49989419870
@@ -1047,8 +1054,8 @@
   when: 2025-05-21 17:12:39.000000000 Z
   where: github
   who: 50021439
-- _id: 73
-  _time: 2025-06-11 15:22:40.892197639 Z
+- _id: 74
+  _time: 2025-06-11 16:26:29.162264130 Z
   _version: 0.4.0/0.26.1/
   branch: find-usages-add
   details: The pull request objectionary/eo-intellij-plugin#68 has been opened by
@@ -1062,8 +1069,8 @@
   when: 2025-05-13 10:53:04.000000000 Z
   where: github
   who: 50021439
-- _id: 74
-  _time: 2025-06-11 15:22:40.904067551 Z
+- _id: 75
+  _time: 2025-06-11 16:26:29.173836787 Z
   _version: 0.4.0/0.26.1/
   branch: structure-view-add
   details: The pull request objectionary/eo-intellij-plugin#67 has been opened by
@@ -1077,8 +1084,8 @@
   when: 2025-05-13 10:46:37.000000000 Z
   where: github
   who: 50021439
-- _id: 75
-  _time: 2025-06-11 15:22:40.913849084 Z
+- _id: 76
+  _time: 2025-06-11 16:26:29.186365821 Z
   _version: 0.4.0/0.26.1/
   branch: code-completion-add
   details: The pull request objectionary/eo-intellij-plugin#66 has been opened by
@@ -1092,8 +1099,8 @@
   when: 2025-05-13 10:41:13.000000000 Z
   where: github
   who: 50021439
-- _id: 78
-  _time: 2025-06-11 15:22:41.887577709 Z
+- _id: 79
+  _time: 2025-06-11 16:26:30.398253542 Z
   _version: 0.4.0/0.26.1/
   branch: renovate/configure
   details: The pull request objectionary/eo-lsp-server#2 has been opened by @renovate[bot].
@@ -1106,8 +1113,8 @@
   when: 2025-06-10 09:00:15.000000000 Z
   where: github
   who: 29139614
-- _id: 83
-  _time: 2025-06-11 15:22:52.255223056 Z
+- _id: 84
+  _time: 2025-06-11 16:26:42.779315645 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @yegor256 to the issue objectionary/eo#4260.
   is_human: 1
@@ -1118,8 +1125,8 @@
   when: 2025-06-08 16:02:18.000000000 Z
   where: github
   who: 526301
-- _id: 125
-  _time: 2025-06-11 15:22:53.218963969 Z
+- _id: 126
+  _time: 2025-06-11 16:26:43.872628158 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @yegor256 to the issue objectionary/eo#4261.
   is_human: 1
@@ -1130,8 +1137,8 @@
   when: 2025-06-08 16:13:04.000000000 Z
   where: github
   who: 526301
-- _id: 128
-  _time: 2025-06-11 15:22:53.536810582 Z
+- _id: 129
+  _time: 2025-06-11 16:26:44.263941250 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @yegor256 to the issue objectionary/eo#4262.
   is_human: 1
@@ -1142,8 +1149,8 @@
   when: 2025-06-08 16:16:43.000000000 Z
   where: github
   who: 526301
-- _id: 129
-  _time: 2025-06-11 15:22:53.882594510 Z
+- _id: 130
+  _time: 2025-06-11 16:26:44.756559694 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @0pdd to the issue objectionary/eo#4263.
   is_human: 0
@@ -1154,8 +1161,8 @@
   when: 2025-06-08 18:14:18.000000000 Z
   where: github
   who: 24456188
-- _id: 130
-  _time: 2025-06-11 15:22:54.217232530 Z
+- _id: 131
+  _time: 2025-06-11 16:26:45.179233401 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @0pdd to the issue objectionary/eo#4264.
   is_human: 0
@@ -1166,8 +1173,8 @@
   when: 2025-06-08 18:14:20.000000000 Z
   where: github
   who: 24456188
-- _id: 131
-  _time: 2025-06-11 15:22:54.623413031 Z
+- _id: 132
+  _time: 2025-06-11 16:26:45.584436041 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @0pdd to the issue objectionary/eo#4265.
   is_human: 0
@@ -1178,8 +1185,8 @@
   when: 2025-06-08 18:14:22.000000000 Z
   where: github
   who: 24456188
-- _id: 132
-  _time: 2025-06-11 15:22:54.975261141 Z
+- _id: 133
+  _time: 2025-06-11 16:26:45.964613277 Z
   _version: 0.4.0/0.26.1/
   details: The '#bug' label was attached by @0pdd to the issue objectionary/eo#4266.
   is_human: 0
@@ -1190,423 +1197,420 @@
   when: 2025-06-08 18:14:24.000000000 Z
   where: github
   who: 24456188
-- _id: 134
-  _time: 2025-06-11 15:22:55.460309479 Z
-  _version: 0.4.0/0.26.1/
-  since: 2025-05-14 15:22:55.460469528 Z
-  what: quality-of-service
-  when: 2025-06-11 15:22:55.460400249 Z
 - _id: 135
-  _time: 2025-06-11 15:34:57.268177974 Z
+  _time: 2025-06-11 16:26:46.588982723 Z
   _version: 0.4.0/0.26.1/
-  since: 2025-05-14 15:34:57.268377537 Z
+  average_backlog_size: 0.6544061302681993
+  average_build_duration: 218.00162866449512
+  average_build_mttr: -191342
+  average_build_success_rate: 0.8482627578718784
+  average_issue_lifetime: 4834832.896907217
+  average_pull_files_size: 7.3355263157894735
+  average_pull_hoc_size: 264.14473684210526
+  average_pull_lifetime: 660162.5139664805
+  average_pull_rejection_rate: 0.15083798882681565
+  average_release_interval: 257826.57142857142
+  since: 2025-05-14 16:26:46.589229925 Z
+  what: quality-of-service
+  when: 2025-06-11 16:26:46.589136490 Z
+- _id: 136
+  _time: 2025-06-11 17:48:55.702978107 Z
+  _version: 0.4.0/0.26.1/
+  since: 2025-05-14 17:48:55.703191976 Z
+  total_commits_pushed: 653
+  total_hoc_committed: 94887
+  total_issues_created: 254
+  total_pulls_submitted: 156
+  total_releases_published: 8
   what: quantity-of-deliverables
-  when: 2025-06-11 15:34:57.268308578 Z
-- _id: 188
-  _time: 2025-06-11 15:38:26.738549192 Z
-  _version: 0.4.0/0.26.1/
-  commit: 749589afd0191eeda4828279c39627d1344104f0
-  default_branch: master
-  details: 'A new Git push #24834341830 has arrived to objectionary/eo, made by @yegor256
-    (default branch is ''master''), not associated with any pull request.'
-  event_id: 50778306114
-  event_type: PushEvent
-  is_human: 1
-  push_id: 24834341830
-  ref: refs/heads/master
-  repository: 73056727
-  to_master: 1
-  what: git-was-pushed
-  when: 2025-06-11 14:23:12.000000000 Z
-  where: github
-  who: 526301
-- _id: 303
-  _time: 2025-06-11 15:39:03.515819254 Z
+  when: 2025-06-11 17:48:55.703121234 Z
+- _id: 314
+  _time: 2025-06-11 17:53:36.590660808 Z
   _version: 0.4.0/0.26.1/
   latest: 50658255414
   repository: 490221501
   what: events-were-scanned
   where: github
-- _id: 304
-  _time: 2025-06-11 15:39:03.844726285 Z
+- _id: 315
+  _time: 2025-06-11 17:53:36.942922962 Z
   _version: 0.4.0/0.26.1/
   latest: 50422788567
   repository: 733919301
   what: events-were-scanned
   where: github
-- _id: 305
-  _time: 2025-06-11 15:39:04.119634583 Z
+- _id: 316
+  _time: 2025-06-11 17:53:37.289109548 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 559427983
   what: events-were-scanned
   where: github
-- _id: 306
-  _time: 2025-06-11 15:39:04.418757278 Z
+- _id: 317
+  _time: 2025-06-11 17:53:37.650632654 Z
   _version: 0.4.0/0.26.1/
   latest: 50577257299
   repository: 483303722
   what: events-were-scanned
   where: github
-- _id: 307
-  _time: 2025-06-11 15:39:05.552719579 Z
+- _id: 318
+  _time: 2025-06-11 17:53:39.156255977 Z
   _version: 0.4.0/0.26.1/
-  latest: 50778306114
+  latest: 50781477560
   repository: 73056727
   what: events-were-scanned
   where: github
-- _id: 308
-  _time: 2025-06-11 15:39:05.906711814 Z
+- _id: 319
+  _time: 2025-06-11 17:53:39.523318378 Z
   _version: 0.4.0/0.26.1/
   latest: 50429143524
   repository: 565789755
   what: events-were-scanned
   where: github
-- _id: 309
-  _time: 2025-06-11 15:39:06.187651807 Z
+- _id: 320
+  _time: 2025-06-11 17:53:39.982150396 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 403396472
   what: events-were-scanned
   where: github
-- _id: 310
-  _time: 2025-06-11 15:39:06.523243050 Z
+- _id: 321
+  _time: 2025-06-11 17:53:40.298877109 Z
   _version: 0.4.0/0.26.1/
   latest: 50351777578
   repository: 396732517
   what: events-were-scanned
   where: github
-- _id: 311
-  _time: 2025-06-11 15:39:06.831159786 Z
+- _id: 322
+  _time: 2025-06-11 17:53:40.636341258 Z
   _version: 0.4.0/0.26.1/
   latest: 50626883230
   repository: 570457023
   what: events-were-scanned
   where: github
-- _id: 312
-  _time: 2025-06-11 15:39:07.174168986 Z
+- _id: 323
+  _time: 2025-06-11 17:53:41.109848994 Z
   _version: 0.4.0/0.26.1/
   latest: 50628324287
   repository: 492899189
   what: events-were-scanned
   where: github
-- _id: 313
-  _time: 2025-06-11 15:39:07.632002159 Z
+- _id: 324
+  _time: 2025-06-11 17:53:41.473660564 Z
   _version: 0.4.0/0.26.1/
   latest: 50628262511
   repository: 482612876
   what: events-were-scanned
   where: github
-- _id: 314
-  _time: 2025-06-11 15:39:08.415328328 Z
+- _id: 325
+  _time: 2025-06-11 17:53:42.374399637 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490221501
   what: labels-were-scanned
   where: github
-- _id: 315
-  _time: 2025-06-11 15:39:08.426877135 Z
+- _id: 326
+  _time: 2025-06-11 17:53:42.387885823 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 733919301
   what: labels-were-scanned
   where: github
-- _id: 316
-  _time: 2025-06-11 15:39:08.438109922 Z
+- _id: 327
+  _time: 2025-06-11 17:53:42.401193246 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 559427983
   what: labels-were-scanned
   where: github
-- _id: 317
-  _time: 2025-06-11 15:39:08.449544655 Z
+- _id: 328
+  _time: 2025-06-11 17:53:42.414530645 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 483303722
   what: labels-were-scanned
   where: github
-- _id: 319
-  _time: 2025-06-11 15:39:08.822889229 Z
+- _id: 330
+  _time: 2025-06-11 17:53:42.828183714 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 565789755
   what: labels-were-scanned
   where: github
-- _id: 320
-  _time: 2025-06-11 15:39:08.834184463 Z
+- _id: 331
+  _time: 2025-06-11 17:53:42.841561568 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 403396472
   what: labels-were-scanned
   where: github
-- _id: 321
-  _time: 2025-06-11 15:39:08.853579625 Z
+- _id: 332
+  _time: 2025-06-11 17:53:42.854022610 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 396732517
   what: labels-were-scanned
   where: github
-- _id: 322
-  _time: 2025-06-11 15:39:08.873942684 Z
+- _id: 333
+  _time: 2025-06-11 17:53:42.865773215 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 570457023
   what: labels-were-scanned
   where: github
-- _id: 324
-  _time: 2025-06-11 15:39:09.137680748 Z
+- _id: 335
+  _time: 2025-06-11 17:53:43.120633631 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 482612876
   what: labels-were-scanned
   where: github
-- _id: 325
-  _time: 2025-06-11 15:39:09.151890271 Z
+- _id: 336
+  _time: 2025-06-11 17:53:43.133098580 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 970961472
   what: labels-were-scanned
   where: github
-- _id: 326
-  _time: 2025-06-11 15:39:09.166654700 Z
+- _id: 337
+  _time: 2025-06-11 17:53:43.144912724 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 731438612
   what: labels-were-scanned
   where: github
-- _id: 327
-  _time: 2025-06-11 15:39:09.181432974 Z
+- _id: 338
+  _time: 2025-06-11 17:53:43.156153147 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 510102039
   what: labels-were-scanned
   where: github
-- _id: 328
-  _time: 2025-06-11 15:39:09.195640444 Z
+- _id: 339
+  _time: 2025-06-11 17:53:43.167941702 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 510082372
   what: labels-were-scanned
   where: github
-- _id: 329
-  _time: 2025-06-11 15:39:09.208988208 Z
+- _id: 340
+  _time: 2025-06-11 17:53:43.179811280 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 519246071
   what: labels-were-scanned
   where: github
-- _id: 330
-  _time: 2025-06-11 15:39:09.222999561 Z
+- _id: 341
+  _time: 2025-06-11 17:53:43.191552077 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 551486781
   what: labels-were-scanned
   where: github
-- _id: 331
-  _time: 2025-06-11 15:39:09.236680387 Z
+- _id: 342
+  _time: 2025-06-11 17:53:43.203026146 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 568705267
   what: labels-were-scanned
   where: github
-- _id: 332
-  _time: 2025-06-11 15:39:09.248994963 Z
+- _id: 343
+  _time: 2025-06-11 17:53:43.215282886 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 798766850
   what: labels-were-scanned
   where: github
-- _id: 333
-  _time: 2025-06-11 15:39:09.261750182 Z
+- _id: 344
+  _time: 2025-06-11 17:53:43.227846991 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 489321585
   what: labels-were-scanned
   where: github
-- _id: 334
-  _time: 2025-06-11 15:39:09.275598621 Z
+- _id: 345
+  _time: 2025-06-11 17:53:43.240693944 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 784310467
   what: labels-were-scanned
   where: github
-- _id: 335
-  _time: 2025-06-11 15:39:09.290751945 Z
+- _id: 346
+  _time: 2025-06-11 17:53:43.254389211 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 546194972
   what: labels-were-scanned
   where: github
-- _id: 336
-  _time: 2025-06-11 15:39:09.305276807 Z
+- _id: 347
+  _time: 2025-06-11 17:53:43.267319039 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 624420387
   what: labels-were-scanned
   where: github
-- _id: 337
-  _time: 2025-06-11 15:39:09.319507670 Z
+- _id: 348
+  _time: 2025-06-11 17:53:43.279771495 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 501942888
   what: labels-were-scanned
   where: github
-- _id: 338
-  _time: 2025-06-11 15:39:09.333308019 Z
+- _id: 349
+  _time: 2025-06-11 17:53:43.292413134 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 13623548
   what: labels-were-scanned
   where: github
-- _id: 339
-  _time: 2025-06-11 15:39:09.347567906 Z
+- _id: 350
+  _time: 2025-06-11 17:53:43.304817110 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 840332960
   what: labels-were-scanned
   where: github
-- _id: 340
-  _time: 2025-06-11 15:39:09.364248141 Z
+- _id: 351
+  _time: 2025-06-11 17:53:43.317027364 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 531151981
   what: labels-were-scanned
   where: github
-- _id: 341
-  _time: 2025-06-11 15:39:09.375770677 Z
+- _id: 352
+  _time: 2025-06-11 17:53:43.330047360 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 671896902
   what: labels-were-scanned
   where: github
-- _id: 342
-  _time: 2025-06-11 15:39:09.387302502 Z
+- _id: 353
+  _time: 2025-06-11 17:53:43.342988368 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 574459304
   what: labels-were-scanned
   where: github
-- _id: 343
-  _time: 2025-06-11 15:39:09.398792899 Z
+- _id: 354
+  _time: 2025-06-11 17:53:43.356728850 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 889819508
   what: labels-were-scanned
   where: github
-- _id: 344
-  _time: 2025-06-11 15:39:09.410339121 Z
+- _id: 355
+  _time: 2025-06-11 17:53:43.370967883 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 501259435
   what: labels-were-scanned
   where: github
-- _id: 345
-  _time: 2025-06-11 15:39:09.422123457 Z
+- _id: 356
+  _time: 2025-06-11 17:53:43.385213688 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490157985
   what: labels-were-scanned
   where: github
-- _id: 346
-  _time: 2025-06-11 15:39:09.433549424 Z
+- _id: 357
+  _time: 2025-06-11 17:53:43.399652645 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 499536612
   what: labels-were-scanned
   where: github
-- _id: 347
-  _time: 2025-06-11 15:39:09.445108240 Z
+- _id: 358
+  _time: 2025-06-11 17:53:43.414348260 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 721146770
   what: labels-were-scanned
   where: github
-- _id: 348
-  _time: 2025-06-11 15:39:09.456632481 Z
+- _id: 359
+  _time: 2025-06-11 17:53:43.425811980 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 447446664
   what: labels-were-scanned
   where: github
-- _id: 349
-  _time: 2025-06-11 15:39:09.467863424 Z
+- _id: 360
+  _time: 2025-06-11 17:53:43.436913402 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 977982682
   what: labels-were-scanned
   where: github
-- _id: 350
-  _time: 2025-06-11 15:39:09.479044344 Z
+- _id: 361
+  _time: 2025-06-11 17:53:43.448217013 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 731516758
   what: labels-were-scanned
   where: github
-- _id: 351
-  _time: 2025-06-11 15:39:09.494341297 Z
+- _id: 362
+  _time: 2025-06-11 17:53:43.459575326 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 493235807
   what: labels-were-scanned
   where: github
-- _id: 352
-  _time: 2025-06-11 15:39:09.508311493 Z
+- _id: 363
+  _time: 2025-06-11 17:53:43.471217399 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 519299365
   what: labels-were-scanned
   where: github
-- _id: 353
-  _time: 2025-06-11 15:39:09.525159852 Z
+- _id: 364
+  _time: 2025-06-11 17:53:43.482805731 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 490258619
   what: labels-were-scanned
   where: github
-- _id: 354
-  _time: 2025-06-11 15:39:09.539718346 Z
+- _id: 365
+  _time: 2025-06-11 17:53:43.494235467 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 543969974
   what: labels-were-scanned
   where: github
-- _id: 355
-  _time: 2025-06-11 15:39:09.552272940 Z
+- _id: 366
+  _time: 2025-06-11 17:53:43.505929617 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 955159947
   what: labels-were-scanned
   where: github
-- _id: 356
-  _time: 2025-06-11 15:39:09.564824829 Z
+- _id: 367
+  _time: 2025-06-11 17:53:43.517182483 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 558766137
   what: labels-were-scanned
   where: github
-- _id: 357
-  _time: 2025-06-11 15:39:09.577266502 Z
+- _id: 368
+  _time: 2025-06-11 17:53:43.528857377 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 386420319
   what: labels-were-scanned
   where: github
-- _id: 358
-  _time: 2025-06-11 15:39:09.590336197 Z
+- _id: 369
+  _time: 2025-06-11 17:53:43.540483309 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 574534248
   what: labels-were-scanned
   where: github
-- _id: 360
-  _time: 2025-06-11 15:39:09.882481096 Z
+- _id: 371
+  _time: 2025-06-11 17:53:43.854034809 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 492899189
   what: labels-were-scanned
   where: github
-- _id: 361
-  _time: 2025-06-11 15:39:11.826832357 Z
+- _id: 372
+  _time: 2025-06-11 17:53:45.981439127 Z
   _version: 0.4.0/0.26.1/
   latest: 0
   repository: 73056727
